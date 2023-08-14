@@ -1,0 +1,216 @@
+.login-pf, body {
+    background: #052C65 !important;
+}
+
+.card-pf {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+    background: none !important;
+}
+
+.login-in__container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 75%;
+    height: 75%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.login-in__left-side {
+    width: 30%;
+    height: 100%;
+}
+
+.login-in__left-side img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.login-in__right-side {
+    background-color: #fff;
+    width: 70%;
+    padding: 5% 10%;
+}
+
+
+
+.right-side__header {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #052C65;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right-side__header h1 {
+    font-size: 40px;
+    font-weight: 400;
+/*   font should be Audiowide */
+    font-family: 'Audiowide', cursive;
+    margin: 0;
+}
+
+.right-side__header h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.right-side__splitter {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #272D37;
+    margin-bottom: 20px;
+}
+
+.right-side__splitter p {
+    position: relative;
+}
+
+.right-side__splitter p span {
+    position: relative;
+    z-index: 1;
+    padding: 0 10px;
+    background-color: #fff;
+}
+
+.right-side__splitter p:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 35%;
+    height: 1px;
+    background-color: #052C65;
+}
+
+.right-side__splitter p:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 35%;
+    height: 1px;
+    background-color: #052C65;
+}
+
+
+.login-form__container {
+    height: 70%;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/*label and input are on differen screens*/
+.login-form label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #272D37;
+}
+
+.login-form input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #052C65;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #052C65;
+}
+
+.remember-me-and-forget-password {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+}
+
+/* keep me longed in: the checkbox should be on the same line with the text and the text should be centralized */
+.remember-me-container  {
+    display: flex;
+    flex-direction: row;
+}
+
+.remember-me-container label {
+    font-size: 15px;
+    font-weight: bold;
+    color: #052C65;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.remember-me-container input {
+    width: 20px;
+    height: 20px;
+}
+
+.password-container {
+    font-size: 15px;
+    font-weight: bold;
+    color: #052C65;
+}
+
+.password-container a {
+    text-decoration: none;
+    color: #052C65;
+}
+
+.login-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-btn input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #052C65;
+    border-radius: 5px;
+    background-color: #052C65;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login-btn input:hover {
+    cursor: pointer;
+}
+
+.login-btn input:active {
+    transform: scale(0.98);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+}
+
+
+#kc-registration span {
+
+}
+
+#kc-registration a {
+
+}
+
